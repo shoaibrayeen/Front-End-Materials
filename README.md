@@ -1,3 +1,3 @@
-# HTML
-# You can edit .html file using a text editor
-# You can execute any HTML file in your browser.
+### HTML, CSS and JavaScript
+
+## You could push your HTML, CSS and Javascript related code in the repository.
