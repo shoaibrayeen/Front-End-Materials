@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Home</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="./assets/style/styles.css" rel="stylesheet">
+    <script>
+        function allowDrop(ev) {
+            ev.preventDefault();
+        }
+
+        function drag(ev) {
+            ev.dataTransfer.setData("text", ev.target.id);
+        }
+
+        function drop(ev) {
+            ev.preventDefault();
+            var data = ev.dataTransfer.getData("text");
+            ev.target.appendChild(document.getElementById(data));
+        }
+    </script>
+</head>
+
+<body>
+
+    <h2>Drag and Drop</h2>
+
+    <div id="div1" ondrop="drop(event)" ondragover="allowDrop(event)" width="336" height="200"></div>
+    <br>
+    <img id="drag1" src="./assets/img/bird.gif" draggable="true" ondragstart="drag(event)" width="336" height="200" alt="bird">
+
+</body>
+
+</html>
