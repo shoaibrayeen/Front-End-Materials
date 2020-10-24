@@ -1,0 +1,28 @@
+body{
+  background-color: #8c82fc;
+  margin:0;
+  text-align: center;
+
+}
+.Heading-1{
+  margin-top: 30px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+h1{
+  color:white;
+  font-size: 4rem;
+  font-family: " sans-serif";
+
+}
+
+.image{
+  margin-top: 30px;
+}
+.p3{
+  font-size: 1.5rem;
+  letter-spacing: inherit;
+  text-align: left;
+  margin-left: 50px;
+  margin-right: 50px;
+}
